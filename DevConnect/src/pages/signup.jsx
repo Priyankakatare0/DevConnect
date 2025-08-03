@@ -11,7 +11,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:3000/register', {
+      const res = await axios.post('https://devconnect-3-10k9.onrender.com/register', {
         username,
         email,
         password,
