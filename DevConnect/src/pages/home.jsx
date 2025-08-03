@@ -7,7 +7,7 @@ const Home = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/posts');
+      const response = await axios.get('https://devconnect-3-10k9.onrender.com/posts');
       if (response.status === 200) {
         setPosts(response.data);
       }
