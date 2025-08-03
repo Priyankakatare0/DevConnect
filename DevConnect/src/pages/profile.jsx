@@ -43,7 +43,7 @@ const Profile = () => {
       if (!token) return;
 
       // Get all posts and filter by current user
-      const response = await axios.get('http://localhost:3000/posts');
+      const response = await axios.get('https://devconnect-3-10k9.onrender.com/posts');
       const tokenPayload = JSON.parse(atob(token.split('.')[1]));
       
       // Filter posts by current user
