@@ -1,5 +1,4 @@
 const joi = require('joi');
-const joiObjectId = require('joi-objectid')(joi);
 
 module.exports.userSchema = joi.object({
     username: joi.string().required(),
