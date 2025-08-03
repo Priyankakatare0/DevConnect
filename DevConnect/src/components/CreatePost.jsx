@@ -30,7 +30,7 @@ const CreatePost = ({ onPostCreated }) => {
                 return;
             }
 
-            const response = await axios.post('http://localhost:3000/post', 
+            const response = await axios.post('https://devconnect-3-10k9.onrender.com/post', 
                 { content },
                 {
                     headers: {
